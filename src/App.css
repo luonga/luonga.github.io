@@ -341,7 +341,9 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+  grid-gap: 10px; /* Adds a gap between grid items */
 }
 
 .work__img {
@@ -356,6 +358,10 @@ img {
 
 .work__img img:hover {
   transform: scale(1.1);
+}
+
+.work__description {
+  margin-left: 2rem; /* Adjust the spacing between image and description */
 }
 
 /* ===== CONTACT =====*/
@@ -511,7 +517,7 @@ img {
     text-align: initial;
   }
   .work__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
 }
