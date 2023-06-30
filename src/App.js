@@ -1,7 +1,8 @@
 import "./App.css";
 import fishy from "./img/FishyRun.gif";
-import emergencyApp from "./img/EmergencyResponseApp (1).gif";
+import emergencyApp from "./img/EmergencyResponseApp.gif";
 import profilePic from "./img/perfil.png";
+import RESTAPI from "./img/REST-API.png";
 
 function App() {
   return (
@@ -190,18 +191,58 @@ function App() {
             </a>
             <div class="work__description">
               <h3>Emergency Response App</h3>
-              <p>Description of Project 1</p>
+              <p>
+                Android app developed for the National Fire District of the
+                Dominican Republic, a comprehensive and user-friendly app for
+                efficient emergency response data tracking. Working with a
+                partner, I collaborated closely with stakeholders to establish
+                project requirements and key functionalities. Using <b>Figma</b>
+                , I created screen mockups and wireframes to aid in design and
+                planning. Leveraging <b>Android Studio, Kotlin,</b> and the{" "}
+                <b>Google Maps API</b>, I implemented a dynamic list and map
+                functionality to display real-time emergency incidents and their
+                locations. Additional tools and technologies used were{" "}
+                <b>Jetpack Compose</b> and <b>Git</b>.
+              </p>
             </div>
             <a href className="work__img">
               <img src={fishy} alt="" />
             </a>
             <div class="work__description">
               <h3>Fishy Run</h3>
-              <p>Description of Project 1</p>
+              <p>
+                Pygames Hackathon Project (Winner) hosted and judged by
+                Microsoft. 2D game built with <b>Python</b> and <b>Pygames</b>.
+                More details in the hackathon website below:{" "}
+              </p>
+              <br></br>
+              <a href="https://devpost.com/software/fishy-run">
+                Link to Hackathon Site
+              </a>
             </div>
             <a href className="work__img">
-              <img src={profilePic} alt="" />
+              <img src={RESTAPI} alt="" />
             </a>
+            <div class="work__description">
+              <h3>REST API</h3>
+              <p>
+                I used <b>Node.js</b> to implement a robust REST API that
+                adheres to best practices, utilizing proper resource-based URLs,
+                pagination, and appropriate status codes. The API was deployed
+                on <b>Google Cloud Platform (GCP)</b>, and I integrated it with{" "}
+                <b>Auth0</b> for user creation, authorization, and management on
+                the site. To ensure clear documentation, I created a
+                comprehensive API specification that outlines all endpoints,
+                status codes, and provides sample requests and responses.
+                Additionally, I developed a <b>Postman</b> Collection and
+                Environment, including a test suite that showcases all the
+                features of the application. Link to the Github below:{" "}
+              </p>
+              <br></br>
+              <a href="https://github.com/luonga/REST-API">
+                Link to Source Code
+              </a>
+            </div>
             <a href className="work__img">
               <img src="assets/img/work4.jpg" alt="" />
             </a>
