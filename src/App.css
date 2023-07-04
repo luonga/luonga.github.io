@@ -457,7 +457,7 @@ height: auto;
     text-align: initial;
   }
   .skills__container {
-    grid-template-columns: .7fr;
+    grid-template-columns: 0.7fr;
     justify-content: center;
   }
   .work__container {
