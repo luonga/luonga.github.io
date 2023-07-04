@@ -277,12 +277,21 @@ img {
 }
 
 /* ===== SKILLS =====*/
+<<<<<<< HEAD
 .skills__container {
   margin-left: 625px;
   margin-right: 625px;
   border: 1px ridge black;
   width: auto;
   height: auto;
+=======
+.skills__container { 
+margin-left: 625px;  
+margin-right: 625px;  
+border: 1px ridge black; 
+width: auto;
+height: auto;  
+>>>>>>> 6c72b6f483f24660c12631948fb9aaa59b46db4d
 }
 
 .skills__subtitle {

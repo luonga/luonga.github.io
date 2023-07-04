@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 import fishy from "./img/FishyRun.gif";
 import emergencyApp from "./img/EmergencyResponseApp.gif";
@@ -6,6 +7,16 @@ import RESTAPI from "./img/REST-API.png";
 import resume from "./img/Anni_Luong resume.pdf";
 import resumePic from "./img/resumePic.png";
 import budgetApp from "./img/budgetApp.png";
+=======
+import './App.css';
+import fishy from './img/FishyRun.gif'
+import emergencyApp from './img/EmergencyResponseApp.gif'
+import profilePic from './img/perfil.png'
+import RESTAPI from './img/REST-API.png'
+import resume from './img/Anni_Luong resume.pdf'
+import resumePic from './img/resumePic.png'
+import budgetApp from './img/budgetApp.png'
+>>>>>>> 6c72b6f483f24660c12631948fb9aaa59b46db4d
 
 function App() {
   return (
@@ -53,6 +64,7 @@ function App() {
           <div className="nav__toggle" id="nav-toggle">
             <i className="bx bx-menu" />
           </div>
+<<<<<<< HEAD
         </nav>
       </header>
       <main className="l-main">
@@ -229,6 +241,17 @@ function App() {
             className="footer__icon"
           >
             <i className="bx bxl-linkedin" />
+=======
+          <a href className="work__img">
+            <img src={budgetApp} alt="" />
+          </a>
+          <div class="work__description">
+          <h3>Budget App</h3>
+          <p>Web app built with <b>Python (Flask, Tkinter)</b> that serves as a valuable tool for individuals seeking to gain insights into their financial habits and make informed decisions based on their monthly spending patterns.  I utilized <b>Javascript</b> and <b>HTML/CSS</b> to calculate monthly income and spending and provide users with a graphical breakdown of their monthly expenses through both pie and bar graphs. </p>
+          </div>
+          <a href className="work__img">
+            <img src="assets/img/work5.jpg" alt="" />
+>>>>>>> 6c72b6f483f24660c12631948fb9aaa59b46db4d
           </a>
           <a href="https://github.com/luonga" className="footer__icon">
             <i className="bx bxl-github" />
