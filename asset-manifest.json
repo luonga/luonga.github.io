@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/luonga.github.io/static/css/main.90329893.css",
+    "main.js": "/luonga.github.io/static/js/main.96f3e8d4.js",
+    "static/js/787.128fc6e9.chunk.js": "/luonga.github.io/static/js/787.128fc6e9.chunk.js",
+    "static/media/EmergencyResponseApp.gif": "/luonga.github.io/static/media/EmergencyResponseApp.4a0d1a530e05d02f78a1.gif",
+    "static/media/FishyRun.gif": "/luonga.github.io/static/media/FishyRun.fa674c5f7ef67b0d847c.gif",
+    "static/media/resumePic.png": "/luonga.github.io/static/media/resumePic.20c0e9cc56381f7d4bf0.png",
+    "static/media/budgetApp.png": "/luonga.github.io/static/media/budgetApp.dff229dc1f73cd14ce42.png",
+    "static/media/Anni_Luong resume.pdf": "/luonga.github.io/static/media/Anni_Luong resume.52945bea8daa34c335f6.pdf",
+    "static/media/REST-API.png": "/luonga.github.io/static/media/REST-API.e11571239240fb29da83.png",
+    "static/media/perfil.png": "/luonga.github.io/static/media/perfil.19ac012ad2bf286570da.png",
+    "index.html": "/luonga.github.io/index.html",
+    "main.90329893.css.map": "/luonga.github.io/static/css/main.90329893.css.map",
+    "main.96f3e8d4.js.map": "/luonga.github.io/static/js/main.96f3e8d4.js.map",
+    "787.128fc6e9.chunk.js.map": "/luonga.github.io/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90329893.css",
+    "static/js/main.96f3e8d4.js"
+  ]
+}
