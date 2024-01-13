@@ -280,7 +280,7 @@ img {
 .skills__container {
   margin: auto;
   border: 1px ridge black;
-  width: fit-content;
+  width: 50%;
   height: auto;
 }
 
